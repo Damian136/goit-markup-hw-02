@@ -1,0 +1,25 @@
+:root {
+    --main-font: font-family: 'Raleway', sans-serif;
+    --secondary-font: font-family: 'Roboto', sans-serif;
+    --main-color: #2196F3;
+}
+body {
+    font-family: font-family: var(--secondary-font);
+}
+
+/* Header */
+.logo {
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.light {
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #000000;
+}
+/* End Header */
