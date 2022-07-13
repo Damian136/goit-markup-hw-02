@@ -8,18 +8,120 @@ body {
 }
 
 /* Header */
-.logo {
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+.header_color {
+    color: #000000;
 }
-.light {
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #000000;
+.navigation-list-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
 }
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+    color: var(--main-color);
+}
+.contacts {
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+}
+.contacts:hover,
+.contacts:focus {
+    color: var(--main-color);
+}
+
 /* End Header */
+/* Main */
+.background {
+background: #2F303A;
+}
+.title_page {
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.button {
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+color: #FFFFFF;
+}
+.button {
+    background-color:#2196F3;
+}
+.title_profile {
+
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.profile {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.about_us {
+
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.name {
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.spezialization {
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* End Main */
+/* Footer */
+.address {
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.logo {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+}
+.logo_color {
+    color: #2196F3;
+}
+.footer_color {
+    color: #FFFFFF;
+}
+/* End Footer*/
+
