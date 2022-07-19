@@ -4,41 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
   </head>
-  <header>
-    <a>WebStudio</a>
-    <nav>
-      <ul>
+  <header class="header">
+    <a class="logo" href="index.html">
+      <span class="logo_color">Web</span
+      ><span class="header_color">Studio</span>
+    </a>
+    <nav class="navigation">
+      <ul class="navigation-list">
         <li>
-          <a>Agencja</a>
+          <a class="navigation-list-link" href="Agencja">Agencja</a>
         </li>
         <li>
-          <a>Portfolio</a>
+          <a class="navigation-list-link" href="portfolio.html">Portfolio</a>
         </li>
         <li>
-          <a>Kontakt</a>
+          <a class="navigation-list-link" href="Kontakt">Kontakt</a>
         </li>
       </ul>
     </nav>
     <div>
       <ul>
         <li>
-          <a href="info@devstudio.com">info@devstudio.com</a>
+          <a class="contacts" href="mailto:info@devstudio.com"
+            >mailto:info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="+48111111111">+48 111 111 111</a>
+          <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </div>
   </header>
   <main>
-    <div>
-      <button>Wszystkie</button>
-      <button>Strony</button>
-      <button>Aplikacje</button>
-      <button>Dizajn</button>
-      <button>Marketing</button>
+    <div class="button_portfolio">
+      <button type="button">Wszystkie</button>
+      <button type="button">Strony</button>
+      <button type="button">Aplikacje</button>
+      <button type="button">Dizajn</button>
+      <button type="button">Marketing</button>
     </div>
     <div>
       <ul>
@@ -49,8 +61,8 @@
             width="370"
             height="294"
           />
-          <p>Technocrack</p>
-          <p>Strona internetowa</p>
+          <p class="title_portfolio">Technocrack</p>
+          <p class="category">Strona internetowa</p>
         </li>
         <li>
           <img
@@ -59,8 +71,8 @@
             width="370"
             height="294"
           />
-          <p>Grafika New Orlean vs Golden Star</p>
-          <p>Dizajn</p>
+          <p class="title_portfolio">Grafika New Orlean vs Golden Star</p>
+          <p class="category">Dizajn</p>
         </li>
         <li>
           <img
@@ -69,8 +81,8 @@
             width="370"
             height="294"
           />
-          <p>Restauracja Seafood</p>
-          <p>Marketing</p>
+          <p class="title_portfolio">Restauracja Seafood</p>
+          <p class="category">Marketing</p>
         </li>
         <li>
           <img
@@ -79,8 +91,8 @@
             width="370"
             height="294"
           />
-          <p>Projekt Prime</p>
-          <p>Marketing</p>
+          <p class="title_portfolio">Projekt Prime</p>
+          <p class="category">Marketing</p>
         </li>
         <li>
           <img
@@ -89,8 +101,8 @@
             width="370"
             height="294"
           />
-          <p>Projekt Boxes</p>
-          <p>Aplikacja</p>
+          <p class="title_portfolio">Projekt Boxes</p>
+          <p class="category">Aplikacja</p>
         </li>
         <li>
           <img
@@ -99,8 +111,8 @@
             width="370"
             height="294"
           />
-          <p>Inspiration has no Borders</p>
-          <p>Strona internetowa</p>
+          <p class="title_portfolio">Inspiration has no Borders</p>
+          <p class="category">Strona internetowa</p>
         </li>
         <li>
           <img
@@ -109,8 +121,8 @@
             width="370"
             height="294"
           />
-          <p>Magazyn Limited Edition</p>
-          <p>Dizajn</p>
+          <p class="title_portfolio">Magazyn Limited Edition</p>
+          <p class="category">Dizajn</p>
         </li>
         <li>
           <img
@@ -119,8 +131,8 @@
             width="370"
             height="294"
           />
-          <p>Projekt LAB</p>
-          <p>Marketing</p>
+          <p class="title_portfolio">Projekt LAB</p>
+          <p class="category">Marketing</p>
         </li>
         <li>
           <img
@@ -129,22 +141,25 @@
             width="370"
             height="294"
           />
-          <p>Growing Business</p>
-          <p>Aplikacja</p>
+          <p class="title_portfolio">Growing Business</p>
+          <p class="category">Aplikacja</p>
         </li>
       </ul>
     </div>
   </main>
   <footer>
     <div class="background">
-      <a>WebStudio</a>
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+      <a class="logo" href="index.html">
+        <span class="logo_color">Web</span
+        ><span class="footer_color">Studio</span>
+      </a>
+      <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
       <ul>
         <li>
-          <a href="info@example.com">info@example.com</a>
+          <a class="contacts" href="info@example.com">info@example.com</a>
         </li>
         <li>
-          <a href="+48111111111">+48 111 111 111</a>
+          <a class="contacts" href="+48111111111">+48 111 111 111</a>
         </li>
       </ul>
     </div>
