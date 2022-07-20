@@ -3,11 +3,8 @@
     --secondary-font: font-family: 'Roboto', sans-serif;
     --main-color: #2196F3;
   }
-body {
-    font-family: font-family: var(--secondary-font);
-}
-
 /* Header */
+
 .header_color {
     color: #000000;
 }
@@ -56,7 +53,6 @@ background: #2F303A;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
-/* or 136% */
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -68,7 +64,6 @@ color: #FFFFFF;
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
-/* identical to box height, or 188% */
 color: #FFFFFF;
 }
 .button {
@@ -107,7 +102,7 @@ line-height: 19px;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.specialization {
+.specializations {
     font-family: 'Roboto';
 font-size: 16px;
 line-height: 19px;
@@ -120,6 +115,12 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 26px
+}
+.button_portfolio.button {
+    background-color: #F5F4FA;
+}
+.button_portfolio.button:hover {
+    cursor: #2196F3;
 }
 .title_portfolio {
     font-family: 'Roboto';
@@ -140,6 +141,7 @@ color: #757575;
 /* Footer */
 .address {
     font-family: 'Roboto';
+font-style: normal;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
@@ -159,4 +161,3 @@ letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 /* End Footer*/
-
