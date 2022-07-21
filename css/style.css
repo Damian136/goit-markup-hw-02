@@ -1,6 +1,5 @@
 :root {
-    --main-font: font-family: 'Roboto', sans-serif;
-    --secondary-font: font-family: 'Raleway', sans-serif;
+  --main-color: #2196f3;
 }
 body {
   font-family: "Raleway";
@@ -8,15 +7,15 @@ body {
 }
 /* Header */
 .logo_color {
-    font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
 }
 .header_color {
-    font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
 }
 a {
   text-decoration: none;
@@ -74,6 +73,9 @@ ul {
   line-height: 30px;
   color: #ffffff;
 }
+.button:hover {
+  cursor: pointer;
+}
 .button {
   background-color: #2196f3;
 }
@@ -123,20 +125,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-}
-.button_category {
-  width: 93px;
-  height: 38px;
-  background-color: #f5f4fa;
-}
-.button_category:hover,
-.button_category:focus
-.title_portfolio {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
 }
 .category {
   font-family: "Roboto";
